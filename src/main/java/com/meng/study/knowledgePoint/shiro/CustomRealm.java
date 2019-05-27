@@ -48,7 +48,6 @@ public class CustomRealm extends AuthorizingRealm {
     // 用于授权
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
-
         return null;
     }
 }
