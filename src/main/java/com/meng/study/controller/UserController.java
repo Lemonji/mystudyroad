@@ -23,6 +23,14 @@ public class UserController {
     }*/
 
 
+   //justtest
+    @PostMapping("/justtest")
+    public void justest(){
+        System.out.println("测试");
+    }
+
+
+
    //shiro测试
     @PostMapping("/loginjjjj")
     public String userlogin(@RequestParam(value = "username")
